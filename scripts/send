@@ -1,3 +1,0 @@
-#!/bin/bash
-
-cp $1 ~/cs246/1149/lectures/shell/scripts
