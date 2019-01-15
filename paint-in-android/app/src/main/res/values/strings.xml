@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android Paint Application</string>
+    <string name="blackthirdthickest">Blackthirdthickest</string>
+    <string name="blackthickest">Blackthickest</string>
+    <string name="blacksecthickest">Blacksecthickest</string>
+    <string name="blackthineest">Blackthineest</string>
+    <string name="paintappmainlayout">PaintAppMainLayout</string>
+    <string name="toolbar">Toolbar</string>
+    <string name="fill">Fill</string>
+    <string name="thickness">thickness</string>
+    <string name="canvas">canvas</string>
+    <string name="imagebuttona">imageButtonA</string>
+    <string name="imagebuttonb">imageButtonB</string>
+    <string name="imagebuttonc">imageButtonC</string>
+    <string name="imagebuttond">imageButtonD</string>
+    <string name="imagebuttone">imageButtonE</string>
+    <string name="imagebuttong">imageButtonG</string>
+    <string name="imagebuttonh">imageButtonH</string>
+    <string name="imagebuttoni">imageButtonI</string>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="2dp"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    android:paddingEnd="2dp"
+    android:paddingStart="2dp"
+    android:contentDescription="@string/paintappmainlayout"
+    android:id="@+id/main">
+
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:contentDescription="@string/toolbar"
+        android:id="@+id/panel">
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/pic0"
+            android:contentDescription="@string/imagebuttona"/>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton2"
+            android:src="@android:drawable/ic_delete"
+            android:contentDescription="@string/imagebuttonb"/>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton3"
+            android:src="@drawable/pic14"
+            android:contentDescription="@string/imagebuttonc"/>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton4"
+            android:src="@drawable/pic15"
+            android:contentDescription="@string/imagebuttond"/>
+
+        <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageButton5"
+        android:src="@drawable/pic13"
+        android:contentDescription="@string/imagebuttone"/>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton5half"
+            android:src="@drawable/pic1"
+            android:contentDescription="@string/imagebuttonh"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/textButton6"
+            android:contentDescription="@string/fill"
+            android:text="Green"
+            android:textAlignment="center"
+            android:textSize="@dimen/abc_action_bar_progress_bar_size"/>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton7"
+            android:src="@android:color/holo_red_dark"
+            android:contentDescription="@string/imagebuttong"/>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton8"
+            android:orientation="horizontal"
+            android:src="@android:color/holo_green_dark"
+            android:contentDescription="@string/imagebuttonh"/>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageButton9"
+            android:orientation="horizontal"
+            android:src="@android:color/holo_blue_dark"
+            android:contentDescription="@string/imagebuttoni"/>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@string/thickness"
+            android:background="@color/material_grey_100">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:id="@+id/imageButton11"
+                android:background="@android:color/transparent"
+                android:padding="1dp"
+                android:layout_margin="2dp"
+                android:src="@android:color/black"
+                android:contentDescription="@string/blackthineest" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/imageButton12"
+                android:src="@android:color/black"
+                android:padding="1dp"
+               android:layout_margin="2dp"
+                android:contentDescription="@string/blackthirdthickest" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/imageButton13"
+                android:src="@android:color/black"
+                android:padding="1dp"
+                android:layout_margin="2dp"
+                android:contentDescription="@string/blacksecthickest" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/imageButton14"
+                android:src="@android:color/black"
+                android:padding="1dp"
+                android:layout_margin="2dp"
+                android:contentDescription="@string/blackthickest"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_light"
+        android:contentDescription="@string/canvas"
+        android:id="@+id/canvas" />
+
+</LinearLayout>
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nimeshdas.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello DMC!" />
+</RelativeLayout>
+-->
